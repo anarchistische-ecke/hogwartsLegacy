@@ -1,5 +1,5 @@
 public class Hogwarts {
-    String name;
+    private String name;
     private int magicForce;
     private int transgression;
 
