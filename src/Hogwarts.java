@@ -35,7 +35,7 @@ public class Hogwarts {
 
     public static void compareStudentsOfDifferentFaculties(Hogwarts student1, Hogwarts student2) {
         var magicalSuperiority1 = student1.magicForce + student1.transgression;
-        var magicalSuperiority2 = student1.magicForce + student2.transgression;
+        var magicalSuperiority2 = student2.magicForce + student2.transgression;
         if (magicalSuperiority1 > magicalSuperiority2) {
             System.out.println(student1.getName() + " is a stronger wizard than " + student2.getName());
         } else if (magicalSuperiority2 > magicalSuperiority1) {

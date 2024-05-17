@@ -14,9 +14,9 @@ public class Slytherin extends Hogwarts {
         var studentQualitiesOne = student1.cunning + student1.ambitious + student1.decisive;
         var studentQualitiesTwo = student2.cunning + student2.ambitious + student2.decisive;
         if (studentQualitiesOne > studentQualitiesTwo) {
-            System.out.println(student1.getName() + " is a better Gryffindor student, than " + student2.getName());
+            System.out.println(student1.getName() + " is a better Slytherin student, than " + student2.getName());
         } else if (studentQualitiesTwo > studentQualitiesOne) {
-            System.out.println(student2.getName() + " is a better Gryffindor student, than " + student1.getName());
+            System.out.println(student2.getName() + " is a better Slytherin student, than " + student1.getName());
         } else {
             System.out.println("Both students are equally good Gryffindors!");
         }
